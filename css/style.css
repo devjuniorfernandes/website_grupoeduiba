@@ -346,13 +346,43 @@
 
 /***** BANNERS   ****/
 
-.top-image {
-	height: 550px;;
-	background-image: url("../img/banner1.jpg"); 
+.bannerHome {
+	height: 800px;
 	background-color: #cccccc;
 	background-position: center;
 	background-repeat: no-repeat; 
 	background-size: cover;
+	padding: 15%;
+}
+
+.bannerHome .box-left {
+	display: block;
+	max-width: 50%;
+}
+
+.bannerHome .box-left h1 {
+	font-size: 30pt;
+}
+
+.bannerHome .box-left p {
+	font-size: 15pt;
+}
+
+.top-image {
+	height: 550px;;
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.service-image {
+	height: 550px;;
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	margin-bottom: 50px;
 }
 
 .my-btn {
@@ -360,6 +390,7 @@
 	border: 1px solid #cb6a00;
 	color: #cb6a00;
 	padding: 10px 20px;
+	cursor: pointer;
 }
 
 .my-btn:hover {
@@ -367,4 +398,5 @@
 	border: 1px solid #cb6a00;
 	color: #fff;
 	padding: 10px 20px;
+	cursor: pointer;
 }
